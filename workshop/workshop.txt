@@ -1,18 +1,18 @@
 ﻿id=1
-title=Mod Bootstrapper
-description=[h1]Mod Bootstrapper[/h1]
+title=Closable Vacuum Pipe
+description=[h1]Closable Vacuum Pipe[/h1]
 description=[url=https://community-owned-workshop.github.io/wiki/][img]https://raw.githubusercontent.com/community-owned-workshop/wiki/refs/heads/main/assets/banner-title-seals-scrap-mechanic.png[/img][/url]
 description=
-description=[list]
-description=[*] New here? create repository from this template and put your data into [i]source/[/i]
-description=[/list]
+description=This mod contains a vacuum pipe that can be closed with logic.
+description=
+description=Make sure to also install the [url=https://steamcommunity.com/sharedfiles/filedetails/?id=3784073427]Mod Bootstrapper[/url]
 description=
 description=[hr][/hr]
 description=[h2]Technical information[/h2]
 description=[list]
 description=[*][b]Version:[/b] 0.1.0
 description=[*][b]Authors:[/b] Slothsoft
-description=[*][b]Source:[/b] [url=https://github.com/community-owned-workshop/scrap-mechanic-template]GitHub[/url]
+description=[*][b]Source:[/b] [url=https://github.com/community-owned-workshop/scrap-mechanic-closable-vacuum-pipe]GitHub[/url]
 description=[/list]
 tags=Mod;Survival;1.0
 visibility=2

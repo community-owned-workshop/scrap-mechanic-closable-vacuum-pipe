@@ -1,0 +1,28 @@
+{
+    "1a5e2d7c-1fd1-4b1e-b11c-6f9af99df210": {
+        "description": "Ein per Logik schaltbares Vakuumrohr. Logik AN öffnet das Rohr; Logik AUS schließt es und trennt den Vakuumrohr-Graph vollständig.",
+        "title": "Schaltbares Vakuumrohr",
+        "keywords": [
+            "schaltbar",
+            "vakuum",
+            "rohr",
+            "ventil",
+            "stopp",
+            "pipe",
+            "valve"
+        ]
+    },
+    "1a5e2d7c-1fd1-4b1e-b11c-6f9af99df211": {
+        "description": "Ein per Logik schaltbares Vakuumrohr. Logik AN öffnet das Rohr; Logik AUS schließt es und trennt den Vakuumrohr-Graph vollständig.",
+        "title": "Schaltbares Vakuumrohr (Geschlossen)",
+        "keywords": [
+            "schaltbar",
+            "vakuum",
+            "rohr",
+            "ventil",
+            "stopp",
+            "pipe",
+            "valve"
+        ]
+    }
+}

@@ -1,0 +1,23 @@
+{
+  "schemaVersion": 1,
+  "id": "closable-vacuum-pipe",
+  "name": "Closable Vacuum Pipe",
+  "claims": [
+    "uuid:1a5e2d7c-1fd1-4b1e-b11c-6f9af99df210",
+    "uuid:1a5e2d7c-1fd1-4b1e-b11c-6f9af99df211"
+  ],
+  "operations": [
+    { "type": "copy", "source": "Survival/Objects/Database/ShapeSets/closable_vacuum_pipe.shapeset", "target": "Survival/Objects/Database/ShapeSets/closable_vacuum_pipe.shapeset" },
+    { "type": "copy", "source": "Survival/Scripts/game/interactables/StockValveN21.lua", "target": "Survival/Scripts/game/interactables/StockValveN21.lua" },
+    { "type": "copyTree", "source": "Survival/Objects/Mesh/closable_vacuum_pipe", "target": "Survival/Objects/Mesh/closable_vacuum_pipe" },
+    { "type": "copyTree", "source": "Survival/Objects/Renderable/closable_vacuum_pipe", "target": "Survival/Objects/Renderable/closable_vacuum_pipe" },
+    { "type": "copyTree", "source": "Survival/Objects/Textures/closable_vacuum_pipe", "target": "Survival/Objects/Textures/closable_vacuum_pipe" },
+
+    { "type": "jsonArrayAdd", "target": "Survival/Objects/Database/shapesets.json", "path": "shapeSetList", "value": "$SURVIVAL_DATA/Objects/Database/ShapeSets/closable_vacuum_pipe.shapeset" },
+    { "type": "jsonObjectMergeFile", "target": "Survival/Gui/Language/English/inventoryDescriptions.json", "source": "Gui/Language/English/inventoryDescriptions.json" },
+    { "type": "jsonObjectMergeFile", "target": "Survival/Gui/Language/German/inventoryDescriptions.json", "source": "Gui/Language/German/inventoryDescriptions.json" },
+    { "type": "jsonArrayMergeFile", "target": "Survival/CraftingRecipes/craftbot/craftbot_pipes.json", "source": "bootstrap-assets/craftbot_recipe.json", "key": "itemId" },
+    { "type": "luaListAdd", "target": "Survival/Scripts/game/managers/RecipeManager.lua", "marker": "local DefaultUnlockedItems = {", "value": "sm.uuid.new( \"1a5e2d7c-1fd1-4b1e-b11c-6f9af99df210\" )," },
+    { "type": "iconAtlasAdd", "xml": "Survival/Gui/IconMapSurvival.xml", "png": "Survival/Gui/IconMapSurvival.png", "group": "ItemIcons", "source": "Data/Gui/ClosableVacuumPipeIcon.png", "uuids": ["1a5e2d7c-1fd1-4b1e-b11c-6f9af99df210", "1a5e2d7c-1fd1-4b1e-b11c-6f9af99df211"] }
+  ]
+}
