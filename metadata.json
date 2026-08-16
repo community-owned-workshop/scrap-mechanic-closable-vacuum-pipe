@@ -1,0 +1,25 @@
+{
+  "name": "Mod Bootstrapper",
+  "version": "0.1.0",
+  "authors": [
+    "Slothsoft"
+  ],
+  "summary": "This is my first COW mod!",
+  "repositoryUrl": "https://github.com/community-owned-workshop/scrap-mechanic-template",
+  "workshop": {
+    "version": 2,
+    "id": "1",
+    "visibility": 2,
+    "tags": [
+      "Mod",
+      "Survival",
+      "1.0"
+    ]
+  },
+  "scrapMechanic": {
+    "localId": "UUID",
+    "type": "Blocks and Parts",
+    "allowAddMods": true,
+    "customIcons": false
+  }
+}
