@@ -14,10 +14,9 @@ This mod contains a vacuum pipe that can be closed with logic.
 
 ## Project information
 
-- **Mod ID:** `{{MOD_ID}}`
-- **Version:** `0.1.0`
+- **Version:** 0.1.0
 - **Authors:** Slothsoft
-- **Minimum game version:** `{{GAME_VERSION_MIN}}`
+- **Source:** https://github.com/community-owned-workshop/scrap-mechanic-closable-vacuum-pipe
 - **Steam Workshop:** [3784405858](https://steamcommunity.com/sharedfiles/filedetails/?id=3784405858)
 
 
