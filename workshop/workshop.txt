@@ -1,4 +1,4 @@
-﻿id=1
+﻿id=3784405858
 title=Closable Vacuum Pipe
 description=[h1]Closable Vacuum Pipe[/h1]
 description=[url=https://community-owned-workshop.github.io/wiki/][img]https://raw.githubusercontent.com/community-owned-workshop/wiki/refs/heads/main/assets/banner-title-seals-scrap-mechanic.png[/img][/url]
@@ -15,4 +15,4 @@ description=[*][b]Authors:[/b] Slothsoft
 description=[*][b]Source:[/b] [url=https://github.com/community-owned-workshop/scrap-mechanic-closable-vacuum-pipe]GitHub[/url]
 description=[/list]
 tags=Mod;Survival;1.0
-visibility=2
+visibility=0
