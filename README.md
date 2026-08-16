@@ -18,7 +18,7 @@ This mod contains a vacuum pipe that can be closed with logic.
 - **Version:** `0.1.0`
 - **Authors:** Slothsoft
 - **Minimum game version:** `{{GAME_VERSION_MIN}}`
-- **Steam Workshop:** [1](https://steamcommunity.com/sharedfiles/filedetails/?id=1)
+- **Steam Workshop:** [3784405858](https://steamcommunity.com/sharedfiles/filedetails/?id=3784405858)
 
 
 ## Repository Layout
