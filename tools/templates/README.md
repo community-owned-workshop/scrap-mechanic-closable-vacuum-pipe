@@ -8,10 +8,9 @@
 
 ## Project information
 
-- **Mod ID:** `{{MOD_ID}}`
-- **Version:** `{{VERSION}}`
+- **Version:** {{VERSION}}
 - **Authors:** {{AUTHORS}}
-- **Minimum game version:** `{{GAME_VERSION_MIN}}`
+- **Source:** {{REPOSITORY_URL}}
 - **Steam Workshop:** [{{WORKSHOP_ID}}]({{WORKSHOP_URL}})
 
 
