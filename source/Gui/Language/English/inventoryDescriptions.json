@@ -1,0 +1,24 @@
+{
+    "1a5e2d7c-1fd1-4b1e-b11c-6f9af99df210": {
+        "description": "A vacuum pipe valve controlled by logic. Logic ON opens the pipe; Logic OFF closes it and completely disconnects the vacuum pipe graph.",
+        "title": "Closable Vacuum Pipe",
+        "keywords": [
+            "closable",
+            "vacuum",
+            "pipe",
+            "valve",
+            "stop"
+        ]
+    },
+    "1a5e2d7c-1fd1-4b1e-b11c-6f9af99df211": {
+        "description": "A vacuum pipe valve controlled by logic. Logic ON opens the pipe; Logic OFF closes it and completely disconnects the vacuum pipe graph.",
+        "title": "Closable Vacuum Pipe (Closed)",
+        "keywords": [
+            "closable",
+            "vacuum",
+            "pipe",
+            "valve",
+            "stop"
+        ]
+    }
+}

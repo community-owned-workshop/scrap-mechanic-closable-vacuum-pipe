@@ -1,0 +1,102 @@
+{
+    "partList": [
+        {
+            "uuid": "1a5e2d7c-1fd1-4b1e-b11c-6f9af99df210",
+            "baseUuid": "1a5e2d7c-1fd1-4b1e-b11c-6f9af99df210",
+            "name": "obj_closable_vacuum_pipe",
+            "color": "c60000",
+            "destroyTime": 0.5,
+            "flammable": false,
+            "hull": {
+                "col": "$GAME_DATA/Objects/Collision/obj_decor_sign05.obj",
+                "x": 5,
+                "y": 3,
+                "z": 1
+            },
+            "physicsMaterial": "Metal",
+            "ratings": {
+                "buoyancy": 2,
+                "density": 2,
+                "durability": 3,
+                "friction": 4
+            },
+            "renderable": "$SURVIVAL_DATA/Objects/Renderable/closable_vacuum_pipe/closable_vacuum_pipe_open.rend",
+            "rotationSet": "PropZ",
+            "sticky": "-Z+Z",
+            "showInInventory": true,
+            "stackSize": 5,
+            "scripted": {
+                "classname": "StockValveN21",
+                "filename": "$SURVIVAL_DATA/Scripts/game/interactables/StockValveN21.lua"
+            },
+            "pipe": {
+                "extendable": true,
+                "openings": [
+                    {
+                        "side": "Z",
+                        "x": 0,
+                        "y": 0,
+                        "z": 0.5
+                    },
+                    {
+                        "side": "-Z",
+                        "x": 0,
+                        "y": 0,
+                        "z": -0.5
+                    }
+                ],
+                "type": "Pipe"
+            }
+        },
+        {
+            "uuid": "1a5e2d7c-1fd1-4b1e-b11c-6f9af99df211",
+            "baseUuid": "1a5e2d7c-1fd1-4b1e-b11c-6f9af99df211",
+            "name": "obj_closable_vacuum_pipe_closed",
+            "color": "c60000",
+            "destroyTime": 0.5,
+            "flammable": false,
+            "hull": {
+                "col": "$GAME_DATA/Objects/Collision/obj_decor_sign05.obj",
+                "x": 5,
+                "y": 3,
+                "z": 1
+            },
+            "physicsMaterial": "Metal",
+            "ratings": {
+                "buoyancy": 2,
+                "density": 2,
+                "durability": 3,
+                "friction": 4
+            },
+            "renderable": "$SURVIVAL_DATA/Objects/Renderable/closable_vacuum_pipe/closable_vacuum_pipe_closed.rend",
+            "rotationSet": "PropZ",
+            "sticky": "-Z+Z",
+            "showInInventory": false,
+            "stackSize": 5,
+            "scripted": {
+                "classname": "StockValveN21",
+                "filename": "$SURVIVAL_DATA/Scripts/game/interactables/StockValveN21.lua"
+            },
+            "pipe": {
+                "directional": true,
+                "openings": [
+                    {
+                        "side": "Z",
+                        "x": 0,
+                        "y": 0,
+                        "z": 0.5,
+                        "direction": "output"
+                    },
+                    {
+                        "side": "-Z",
+                        "x": 0,
+                        "y": 0,
+                        "z": -0.5,
+                        "direction": "input"
+                    }
+                ],
+                "type": "Interactable"
+            }
+        }
+    ]
+}

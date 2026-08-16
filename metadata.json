@@ -1,11 +1,11 @@
 {
-  "name": "Mod Bootstrapper",
+  "name": "Closable Vacuum Pipe",
   "version": "0.1.0",
   "authors": [
     "Slothsoft"
   ],
-  "summary": "This is my first COW mod!",
-  "repositoryUrl": "https://github.com/community-owned-workshop/scrap-mechanic-template",
+  "summary": "This mod contains a vacuum pipe that can be closed with logic.",
+  "repositoryUrl": "https://github.com/community-owned-workshop/scrap-mechanic-closable-vacuum-pipe",
   "workshop": {
     "version": 2,
     "id": "1",
@@ -17,7 +17,7 @@
     ]
   },
   "scrapMechanic": {
-    "localId": "UUID",
+    "localId": "640949aa-329c-4a2b-be5a-0e4a455eccd4",
     "type": "Blocks and Parts",
     "allowAddMods": true,
     "customIcons": false

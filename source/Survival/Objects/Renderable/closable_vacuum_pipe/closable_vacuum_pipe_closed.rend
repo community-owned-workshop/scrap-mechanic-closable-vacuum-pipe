@@ -1,0 +1,26 @@
+{
+  "lodList": [
+    {
+      "mesh": "$SURVIVAL_DATA/Objects/Mesh/closable_vacuum_pipe/closable_vacuum_pipe_closed.fbx",
+      "subMeshMap": {
+        "pipe": {
+          "custom": { "uv0": { "u": 0.25, "v": 1 } },
+          "material": "UVAnimDifAsgNor",
+          "textureList": [
+            "$SURVIVAL_DATA/Objects/Textures/interactive/obj_interactive_pipe_dif.tga",
+            "$SURVIVAL_DATA/Objects/Textures/interactive/obj_interactive_pipe_asg.tga",
+            "$SURVIVAL_DATA/Objects/Textures/interactive/obj_interactive_pipe_nor.tga"
+          ]
+        },
+        "sign": {
+          "material": "DifAsgNor",
+          "textureList": [
+            "$SURVIVAL_DATA/Objects/Textures/closable_vacuum_pipe/closable_vacuum_pipe_stop_dif.tga",
+            "$SURVIVAL_DATA/Objects/Textures/closable_vacuum_pipe/closable_vacuum_pipe_stop_asg.tga",
+            "$SURVIVAL_DATA/Objects/Textures/closable_vacuum_pipe/closable_vacuum_pipe_stop_nor.tga"
+          ]
+        }
+      }
+    }
+  ]
+}
